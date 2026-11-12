@@ -1,0 +1,83 @@
+body {
+  margin: 0; 
+  font-family: Arial, sans-serif;
+  background-color: black;
+  overflow: hidden;
+}
+
+.diapositiva {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.diapositiva.activa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caja {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 40px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+  color: #f4c542;
+}
+
+p {
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+.chico {
+  font-size: 18px;
+  color: #cccccc;
+}
+
+#d1  { background-color: #5a3d1e; background-image: url("./imagen1.jpg"); }
+#d2  { background-color: #3d4f2f; background-image: url(./fondo.jpg); }
+#d3  { background-color: #5a3d1e; background-image: url(./fondo.jpg); }
+#d4  { background-color: #2f4a5a; background-image: url(./fondo.jpg); }
+#d5  { background-color: #4a3a5a; background-image: url(./fondo.jpg); }
+#d6  { background-color: #3d5a3a; background-image: url(./fondo.jpg); }
+#d7  { background-color: #5a2f2f; background-image: url(./fondo.jpg); }
+#d8  { background-color: #5a4a2f; background-image: url(./fondo.jpg); }
+#d9  { background-color: #2f5a55; background-image: url(./fondo.jpg); }
+#d10 { background-color: #5a3d1e; background-image: url(./fondo.jpg); }
+
+#botones {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 24px;
+  margin: 0 15px;
+  background-color: #f4c542;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#contador {
+  color: white;
+  font-size: 20px;
+}
